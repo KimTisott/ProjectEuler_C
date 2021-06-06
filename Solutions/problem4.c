@@ -4,11 +4,11 @@ void problem4()
 
     int maxMultiplicand = 99;
 
-    for (int multiplier = 999; multiplier > maxMultiplicand; multiplier--)
+    for (int multiplier = 1000; multiplier > maxMultiplicand; multiplier--)
     {
-        for (int multiplicand = 999; multiplicand > 99; multiplicand--)
+        for (int multiplicand = multiplier - 1; multiplicand > 99; multiplicand--)
         {
-            int product = multiplier * multiplicand;
+            int product = (multiplier - 1) * multiplicand;
 
             int temp = product;
 
