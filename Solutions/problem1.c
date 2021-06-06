@@ -1,6 +1,8 @@
 void problem1()
 {
-	int sum = 0, current = 3;
+	int sum = 0;
+
+	int current = 3;
 
 	for (int i = 3; i < 1000; i += 3)
 	{
@@ -10,6 +12,7 @@ void problem1()
 	for (int i = 5; i < 995; i += 15)
 	{
 		sum += i;
+
 		sum += i + 5;
 	}
 
