@@ -1,6 +1,6 @@
 void problem2()
 {
-	int sum = 0;
+	int result = 0;
 
 	int a = 1;
 
@@ -10,7 +10,7 @@ void problem2()
 
 	while (b < 4000000)
 	{
-		sum += b;
+		result += b;
 
 		temp = a + 2 * b;
 
