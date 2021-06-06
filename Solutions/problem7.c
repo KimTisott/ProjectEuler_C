@@ -18,6 +18,7 @@ void problem7()
                 {
                     break;
                 }
+                
                 if (x % p == 0)
                 {
                     prime = 0;
