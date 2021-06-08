@@ -5,7 +5,7 @@
   <br>My implementations for solutions of <a href="https://projecteuler.net">Project Euler</a> challenges</br>
 </p>
 
-This repository contains the fastest deterministic solution for each problem.
+This repository contains the fastest non-trivial deterministic algorithm for each problem. The algorithms have to accept different inputs when applicable and avoid explicit arithmetic expressions.
 
 Here are some performance rules I've followed when writing the code:
 - Iterate through only the values you need
