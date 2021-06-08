@@ -1,18 +1,18 @@
-#define Limit 4000000
+#define LIMIT 4000000
 
 unsigned long long problem2()
 {
-	unsigned long long result = 0, before = 1, current = 2, temp;
+	unsigned long long result = 0, before = 1, current = 2, next;
 
-	while (current < Limit)
+	while (current < LIMIT)
 	{
 		result += current;
 
-		temp = before + 2 * current;
+		next = before + 2 * current;
 
-		current = temp + before + current;
+		current = next + before + current;
 
-		before = temp;
+		before = next;
 	}
 
 	return result;
