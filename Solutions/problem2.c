@@ -1,21 +1,19 @@
-void problem2()
+#define Limit 4000000
+
+unsigned long long problem2()
 {
-	int result = 0;
+	unsigned long long result = 0, before = 1, current = 2, temp;
 
-	int a = 1;
-
-	int b = 2;
-
-	int temp;
-
-	while (b < 4000000)
+	while (current < Limit)
 	{
-		result += b;
+		result += current;
 
-		temp = a + 2 * b;
+		temp = before + 2 * current;
 
-		b = temp + a + b;
+		current = temp + before + current;
 
-		a = temp;
+		before = temp;
 	}
+
+	return result;
 }
