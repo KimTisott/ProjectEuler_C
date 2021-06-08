@@ -5,11 +5,9 @@
   <br>My implementations for solutions of <a href="https://projecteuler.net">Project Euler</a> challenges</br>
 </p>
 
-This repository contains the fastest non-trivial possible solution for each problem. Therefore, every solution must:
-- Result in the correct value
-- Run faster than any other
-- Not use other libraries
+This repository contains the fastest deterministic solution for each problem.
 
 Here are some performance rules I've followed when writing the code:
 - Iterate through only the values you need
-- Avoid conditions inside loops
+- Avoid nested and/or conditional loops
+- Allocate the minimum amount of memory
