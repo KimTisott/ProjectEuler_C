@@ -1,30 +1,46 @@
-#define N1 3
-#define N2 5
-#define Limit 1000
+#define DIV1 3
+#define DIV2 5
+#define LIMIT 1000
 
 unsigned long long problem1()
 {
-	unsigned long long result = 0, n1sum = 0, n2sum = 0, n12sum = 0, i;
+	unsigned long long result = 0, smaller, larger, i;
 
-	for (i = 0; i < Limit; i++)
+	if (DIV1 < DIV2)
 	{
-		if (!(i % N1))
-		{
-			n1sum += i;
-		}
-
-		if (!(i % N2))
-		{
-			n2sum += i;
-		}
-
-		if (!(i % (N1 * N2)))
-		{
-			n12sum += i;
-		}
+		smaller = DIV1;
+		larger = DIV2;
+	}
+	else
+	{
+		smaller = DIV2;
+		larger = DIV1;
 	}
 
-	result = n1sum + n2sum - n12sum;
+	if (larger % smaller)
+	{
+		for (i = smaller; i < LIMIT; i += smaller)
+		{
+			result += i;
+		}
+		for (i = larger; i < LIMIT; i += larger)
+		{
+			result += i;
+		}
+
+		unsigned long long product = smaller * larger;
+		for (i = product; i < LIMIT; i += product)
+		{
+			result -= i;
+		}
+	}
+	else
+	{
+		for (i = smaller; i < LIMIT; i += smaller)
+		{
+			result += i;
+		}
+	}
 
 	return result;
 }
