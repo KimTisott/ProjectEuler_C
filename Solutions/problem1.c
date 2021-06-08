@@ -1,20 +1,30 @@
-void problem1()
+#define N1 3
+#define N2 5
+#define Limit 1000
+
+unsigned long long problem1()
 {
-	int result = 0;
+	unsigned long long result = 0, n1sum = 0, n2sum = 0, n12sum = 0, i;
 
-	int current = 3;
-
-	for (int i = 3; i < 1000; i += 3)
+	for (i = 0; i < Limit; i++)
 	{
-		result += i;
+		if (!(i % N1))
+		{
+			n1sum += i;
+		}
+
+		if (!(i % N2))
+		{
+			n2sum += i;
+		}
+
+		if (!(i % (N1 * N2)))
+		{
+			n12sum += i;
+		}
 	}
 
-	for (int i = 5; i < 995; i += 15)
-	{
-		result += i;
+	result = n1sum + n2sum - n12sum;
 
-		result += i + 5;
-	}
-
-	result += 995;
+	return result;
 }
