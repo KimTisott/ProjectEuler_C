@@ -1,8 +1,10 @@
-long long problem3()
-{
-	long long result = 600851475143;
+#define MULT 600851475143
 
-	for (long long i = 2; i < result; i++)
+unsigned long long problem3()
+{
+	unsigned long long result = MULT;
+
+	for (unsigned long long i = 2; i < result; i++)
 	{
 		while (result % i == 0)
 		{
