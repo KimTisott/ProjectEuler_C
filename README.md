@@ -19,10 +19,9 @@
 
 Benchmark configs:
 ```c
-// main.c 5-8
-#define BenchmarkOnly 1
+// main.c 4-6
 #define BenchmarkRuns 1000000
-#define BenchmarkFunction problemX
+#define BenchmarkFunction problem1
 #define BenchmarkProgress 0
 ```
 
@@ -30,8 +29,8 @@ There are certain rules that every solution must comply:
 - Parameterized: the problem description inputs must be previously defined
 - Deterministic: one input results in the same output every run
 - Non-trivial: there can be no unexplained values in the code
-- Vanilla: free of third-party libraries
 - Fast: every nanosecond and bit matters
+- Vanilla: free of third-party libraries
 
 Here are some performance rules I've followed when writing the code:
 - Iterate through only the values you need
