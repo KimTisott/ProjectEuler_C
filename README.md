@@ -5,7 +5,7 @@
   <br>My implementations for solutions of <a href="https://projecteuler.net">Project Euler</a> challenges</br>
 </p>
 
-This repository contains the fastest non-trivial deterministic algorithm for each problem. The algorithms must accept different inputs when applicable, and avoid third-party libraries. The list below contains the benchmark results for each solution in a 64-bit release environment.
+This repository contains the fastest non-trivial deterministic algorithm for each problem. The algorithms must accept different inputs when applicable, and avoid third-party libraries.
 
 | Problem                                                           | Solution                                                                      | Mean    |
 | :---------------------------------------------------------------: | :---------------------------------------------------------------------------: | :-----: |
