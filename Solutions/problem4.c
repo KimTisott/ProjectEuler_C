@@ -18,16 +18,14 @@ int is_palindromic(unsigned long long n)
 
 unsigned long long problem4()
 {
-    unsigned long long result = 0, base = 1;
+    unsigned long long result = 0, limit = 1;
 
     for (int i = 0; i < DIGITS; i++)
     {
-        base *= 10;
+        limit *= 10;
     }
 
-    unsigned long long max = base - 1;
-
-    for (unsigned long long i = max; i > 0; i--)
+    for (unsigned long long i = limit - 1; i > 0; i--)
     {
         if (i * i < result)
         {
