@@ -1,1 +1,0 @@
-void benchmark(void* function(), int count, int progress);
