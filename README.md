@@ -5,8 +5,6 @@
   <br>My implementations for solutions of <a href="https://projecteuler.net">Project Euler</a> challenges</br>
 </p>
 
-This repository contains the fastest non-trivial deterministic algorithm for each problem. The algorithms must accept different inputs when applicable, and avoid third-party libraries.
-
 | Problem                                                           | Solution                                                                                | Mean    |
 | :---------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :-----: |
 | [Multiples of 3 and 5](https://projecteuler.net/problem=1)        | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem1.c) | 0.013μs |
@@ -27,6 +25,13 @@ Benchmark configs:
 #define BenchmarkFunction problem1
 #define BenchmarkProgress 0
 ```
+
+There are certain rules that every solution must comply:
+- Parameterized: the problem description inputs must be previously defined
+- Deterministic: one input results in the same output every run
+- Non-trivial: there can be no unexplained values in the code
+- Vanilla: free of third-party libraries
+- Fast: every nanosecond and bit matters
 
 Here are some performance rules I've followed when writing the code:
 - Iterate through only the values you need
