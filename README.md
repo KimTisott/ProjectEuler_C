@@ -30,7 +30,6 @@ There are certain rules that every solution must comply:
 - Deterministic: one input results in the same output every run
 - Non-trivial: there can be no unexplained values in the code
 - Fast: every nanosecond and bit matters
-- Vanilla: free of third-party libraries
 
 Here are some performance rules I've followed when writing the code:
 - Iterate through only the values you need
