@@ -1,36 +1,48 @@
-int problem4()
+#define DIGITS 3
+
+#include <math.h>
+
+int is_palindromic(unsigned long long n)
 {
-    int result = 0;
+    unsigned long long reversed = 0, temp = n;
 
-    int maxMultiplicand = 99;
-
-    for (int multiplier = 1000; multiplier > maxMultiplicand; multiplier--)
+    while (temp)
     {
-        for (int multiplicand = multiplier - 1; multiplicand > 99; multiplicand--)
+        reversed = 10 * reversed + (temp % 10);
+        
+        temp /= 10;
+    }
+
+    return reversed == n;
+}
+
+unsigned long long problem4()
+{
+    unsigned long long result = 0, base = 1;
+
+    for (int i = 0; i < DIGITS; i++)
+    {
+        base *= 10;
+    }
+
+    unsigned long long max = base - 1;
+
+    for (unsigned long long i = max; i > 0; i--)
+    {
+        if (i * i < result)
         {
-            int product = (multiplier - 1) * multiplicand;
+            break;
+        }
 
-            int temp = product;
+        for (unsigned long long j = i; j > fmax(floor(result / i), pow(10, log10(i) - 1)); j--)
+        {
+            unsigned long long temp = i * j;
 
-            int reversed = 0;
-
-            while (temp)
+            if (is_palindromic(temp))
             {
-                reversed = 10 * reversed + (temp % 10);
+                result = temp;
 
-                temp /= 10;
-            }
-
-            if (reversed == product)
-            {
-                if (product > result)
-                {
-                    result = product;
-
-                    maxMultiplicand = multiplicand;
-
-                    break;
-                }
+                break;
             }
         }
     }
