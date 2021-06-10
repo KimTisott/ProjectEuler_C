@@ -34,7 +34,7 @@ There are certain rules that every solution must comply:
 Here are some performance rules I've followed when writing the code:
 - Allocate the minimum amount of memory
 - Iterate through only the values you need
-- Avoid nested and/or conditional loops
+- Use as little conditions as possible
 
 ### TODO
 
