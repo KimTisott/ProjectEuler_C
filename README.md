@@ -9,13 +9,13 @@
 | :---------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :-----: |
 | [Multiples of 3 and 5](https://projecteuler.net/problem=1)        | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem1.c) | 0.013μs |
 | [Even Fibonacci numbers](https://projecteuler.net/problem=2)      | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem2.c) | 0.017μs |
-| [Largest prime factor](https://projecteuler.net/problem=3)        | C | - |
-| [Largest palindrome product](https://projecteuler.net/problem=4)  | C | - |
-| [Smallest multiple](https://projecteuler.net/problem=5)           | C | - |
-| [Sum square difference](https://projecteuler.net/problem=6)       | C | - |
-| [10001st prime](https://projecteuler.net/problem=7)               | C | - |
-| [Largest product in a series](https://projecteuler.net/problem=8) | C | - |
-| [Special Pythagorean triplet](https://projecteuler.net/problem=9) | C | - |
+| [Largest prime factor](https://projecteuler.net/problem=3)        | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem3.c) | 0.017μs |
+| [Largest palindrome product](https://projecteuler.net/problem=4)  | - | - |
+| [Smallest multiple](https://projecteuler.net/problem=5)           | - | - |
+| [Sum square difference](https://projecteuler.net/problem=6)       | - | - |
+| [10001st prime](https://projecteuler.net/problem=7)               | - | - |
+| [Largest product in a series](https://projecteuler.net/problem=8) | - | - |
+| [Special Pythagorean triplet](https://projecteuler.net/problem=9) | - | - |
 
 Benchmark configs:
 ```c
