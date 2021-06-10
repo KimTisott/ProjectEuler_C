@@ -7,10 +7,10 @@
 
 This repository contains the fastest non-trivial deterministic algorithm for each problem. The algorithms must accept different inputs when applicable, and avoid third-party libraries.
 
-| Problem                                                           | Solution                                                                      | Mean    |
-| :---------------------------------------------------------------: | :---------------------------------------------------------------------------: | :-----: |
-| [Multiples of 3 and 5](https://projecteuler.net/problem=1)        | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/problem1.c) | 0.013μs |
-| [Even Fibonacci numbers](https://projecteuler.net/problem=2)      | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/problem2.c) | 0.017μs |
+| Problem                                                           | Solution                                                                                | Mean    |
+| :---------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :-----: |
+| [Multiples of 3 and 5](https://projecteuler.net/problem=1)        | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem1.c) | 0.013μs |
+| [Even Fibonacci numbers](https://projecteuler.net/problem=2)      | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem2.c) | 0.017μs |
 | [Largest prime factor](https://projecteuler.net/problem=3)        | C | - |
 | [Largest palindrome product](https://projecteuler.net/problem=4)  | C | - |
 | [Smallest multiple](https://projecteuler.net/problem=5)           | C | - |
