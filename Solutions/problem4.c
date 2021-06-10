@@ -2,9 +2,9 @@
 
 #include <math.h>
 
-int is_palindromic(unsigned long long n)
+int is_palindromic(unsigned long long number)
 {
-    unsigned long long reversed = 0, temp = n;
+    unsigned long long reversed = 0, temp = number;
 
     while (temp)
     {
@@ -13,7 +13,7 @@ int is_palindromic(unsigned long long n)
         temp /= 10;
     }
 
-    return reversed == n;
+    return reversed == number;
 }
 
 unsigned long long problem4()
