@@ -29,12 +29,12 @@ There are certain rules that every solution must comply:
 - Parameterized: the problem description inputs must be previously defined
 - Deterministic: one input results in the same output every run
 - Non-trivial: there can be no unexplained values in the code
-- Fast: every nanosecond and bit matters
+- Efficient: every microsecond, bit and joule matters
 
 Here are some performance rules I've followed when writing the code:
+- Allocate the minimum amount of memory
 - Iterate through only the values you need
 - Avoid nested and/or conditional loops
-- Allocate the minimum amount of memory
 
 ### TODO
 
