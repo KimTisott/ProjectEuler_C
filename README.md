@@ -7,19 +7,19 @@
 
 This repository contains the fastest non-trivial deterministic algorithm for each problem. The algorithms must accept different inputs when applicable, and avoid third-party libraries. The list below contains the benchmark results for each solution in a 64-bit release environment.
 
-| Problem                                                           | Solution                                                                                | Mean    |
-| :---------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :-----: |
-| [Multiples of 3 and 5](https://projecteuler.net/problem=1)        | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem1.c) | 0.013μs |
-| [Even Fibonacci numbers](https://projecteuler.net/problem=2)      | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem2.c) | 0.017μs |
-| [Largest prime factor](https://projecteuler.net/problem=3)        | C | ms |
-| [Largest palindrome product](https://projecteuler.net/problem=4)  | C | ms |
-| [Smallest multiple](https://projecteuler.net/problem=5)           | C | ms |
-| [Sum square difference](https://projecteuler.net/problem=6)       | C | ms |
-| [10001st prime](https://projecteuler.net/problem=7)               | C | ms |
-| [Largest product in a series](https://projecteuler.net/problem=8) | C | ms |
-| [Special Pythagorean triplet](https://projecteuler.net/problem=9) | C | ms |
+| Problem                                                           | Solution                                                                      | Mean    |
+| :---------------------------------------------------------------: | :---------------------------------------------------------------------------: | :-----: |
+| [Multiples of 3 and 5](https://projecteuler.net/problem=1)        | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/problem1.c) | 0.013μs |
+| [Even Fibonacci numbers](https://projecteuler.net/problem=2)      | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/problem2.c) | 0.017μs |
+| [Largest prime factor](https://projecteuler.net/problem=3)        | C | - |
+| [Largest palindrome product](https://projecteuler.net/problem=4)  | C | - |
+| [Smallest multiple](https://projecteuler.net/problem=5)           | C | - |
+| [Sum square difference](https://projecteuler.net/problem=6)       | C | - |
+| [10001st prime](https://projecteuler.net/problem=7)               | C | - |
+| [Largest product in a series](https://projecteuler.net/problem=8) | C | - |
+| [Special Pythagorean triplet](https://projecteuler.net/problem=9) | C | - |
 
-Use these configs to achieve the most trustworthy benchmark results:
+Benchmark configs:
 ```c
 // main.c 5-8
 #define BenchmarkOnly 1
