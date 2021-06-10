@@ -2,15 +2,15 @@
   <a href="https://projecteuler.net">
     <img src="https://projecteuler.net/images/clipart/euler_portrait.png">
   </a>
-  <br>My implementations for solutions of <a href="https://projecteuler.net">Project Euler</a> challenges</br>
+  <br>My overly optimized implementations for solutions of <a href="https://projecteuler.net">Project Euler</a> challenges</br>
 </p>
 
-| Problem                                                           | Solution                                                                                | Mean (μs) |
-| :---------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :-------: |
+| Problem                                                           | Solution                                                                                | Mean (μs) | Suggestion |
+| :---------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :-------: | :--------: |
 | [Multiples of 3 and 5](https://projecteuler.net/problem=1)        | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem1.c) | 0.013     |
 | [Even Fibonacci numbers](https://projecteuler.net/problem=2)      | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem2.c) | 0.017     |
 | [Largest prime factor](https://projecteuler.net/problem=3)        | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem3.c) | 0.017     |
-| [Largest palindrome product](https://projecteuler.net/problem=4)  | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem4.c) | 48.754    |
+| [Largest palindrome product](https://projecteuler.net/problem=4)  | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem4.c) | 48.754    | In is_palindromic, convert to string and compare its chars
 | [Smallest multiple](https://projecteuler.net/problem=5)           | - | - |
 | [Sum square difference](https://projecteuler.net/problem=6)       | - | - |
 | [10001st prime](https://projecteuler.net/problem=7)               | - | - |
@@ -25,19 +25,20 @@ Benchmark configs:
 #define BenchmarkProgress 0
 ```
 
-There are certain rules that every solution must comply:
-- Parameterized: the problem description inputs must be previously defined
+Every solution must be:
+- Parameterized: the problem inputs must be defined at compile time
 - Deterministic: one input results in the same output every run
 - Non-trivial: there can be no unexplained values in the code
 - Efficient: every microsecond, bit and joule matters
 
-Here are some performance rules I've followed when writing the code:
+Here are the followed performance rules:
 - Allocate the minimum amount of memory
 - Iterate through only the values you need
 - Use as little conditions as possible
 
 ### TODO
 
-- Include other time measurements
+- Include more time measurements
 - Running system information
 - Show allocated memory
+- Linux compatibility
