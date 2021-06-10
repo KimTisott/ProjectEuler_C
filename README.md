@@ -21,7 +21,7 @@ Benchmark configs:
 ```c
 // main.c 4-6
 #define BenchmarkRuns 1000000
-#define BenchmarkFunction problem1
+#define BenchmarkFunction problemX
 #define BenchmarkProgress 0
 ```
 
