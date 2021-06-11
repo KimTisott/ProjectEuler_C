@@ -32,11 +32,6 @@ Every solution must be:
 - Non-trivial: there can be no unexplained values in the code
 - Efficient: every microsecond, bit and joule matters
 
-Here are the followed performance rules:
-- Allocate the minimum amount of memory
-- Iterate through only the values you need
-- Use as little conditions as possible
-
 ### TODO
 
 - Include more time measurements
