@@ -9,7 +9,7 @@ int is_palindromic(unsigned long long number)
     while (temp)
     {
         reversed = 10 * reversed + (temp % 10);
-        
+
         temp /= 10;
     }
 

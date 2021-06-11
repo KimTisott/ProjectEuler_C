@@ -139,19 +139,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="benchmark.h" />
-    <ClInclude Include="solutions.h" />
+    <ClInclude Include="Benchmark\benchmark.h" />
+    <ClInclude Include="Solutions\index.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="benchmark.c" />
+    <ClCompile Include="Benchmark\benchmark.c" />
     <ClCompile Include="main.c" />
-    <ClCompile Include="problem1.c" />
-    <ClCompile Include="problem2.c" />
-    <ClCompile Include="problem3.c" />
-    <ClCompile Include="problem4.c" />
-    <ClCompile Include="problem5.c" />
-    <ClCompile Include="problem6.c" />
-    <ClCompile Include="problem7.c" />
+    <ClCompile Include="Solutions\problem1.c" />
+    <ClCompile Include="Solutions\problem2.c" />
+    <ClCompile Include="Solutions\problem3.c" />
+    <ClCompile Include="Solutions\problem4.c" />
+    <ClCompile Include="Solutions\problem5.c" />
+    <ClCompile Include="Solutions\problem6.c" />
+    <ClCompile Include="Solutions\problem7.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

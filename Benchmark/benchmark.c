@@ -1,4 +1,5 @@
 #include <math.h>
+#include <stdio.h>s
 #include <windows.h>
 
 double time()
@@ -16,7 +17,7 @@ void benchmark(void* function(), int count, int progress)
 {
 	double *times = malloc(sizeof(double) * count);
 	double total = 0.0, mean, sd = 0.0;
-
+	
 	printf("Benchmark Started\n");
 	printf("------------------------------\n");
 

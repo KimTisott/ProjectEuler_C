@@ -18,39 +18,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="benchmark.h">
+    <ClInclude Include="Benchmark\benchmark.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="solutions.h">
+    <ClInclude Include="Solutions\index.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="benchmark.c">
+    <ClCompile Include="Benchmark\benchmark.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="problem1.c">
+    <ClCompile Include="Solutions\problem1.c">
       <Filter>Source Files\Solutions</Filter>
     </ClCompile>
-    <ClCompile Include="problem2.c">
+    <ClCompile Include="Solutions\problem2.c">
       <Filter>Source Files\Solutions</Filter>
     </ClCompile>
-    <ClCompile Include="problem3.c">
+    <ClCompile Include="Solutions\problem3.c">
       <Filter>Source Files\Solutions</Filter>
     </ClCompile>
-    <ClCompile Include="problem4.c">
+    <ClCompile Include="Solutions\problem4.c">
       <Filter>Source Files\Solutions</Filter>
     </ClCompile>
-    <ClCompile Include="problem5.c">
+    <ClCompile Include="Solutions\problem5.c">
       <Filter>Source Files\Solutions</Filter>
     </ClCompile>
-    <ClCompile Include="problem6.c">
+    <ClCompile Include="Solutions\problem6.c">
       <Filter>Source Files\Solutions</Filter>
     </ClCompile>
-    <ClCompile Include="problem7.c">
+    <ClCompile Include="Solutions\problem7.c">
       <Filter>Source Files\Solutions</Filter>
     </ClCompile>
   </ItemGroup>
