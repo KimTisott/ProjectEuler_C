@@ -13,7 +13,7 @@
 | 4   | [Largest palindrome product](https://projecteuler.net/problem=4)  | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem4.c) | 803.261   | 43.106  |
 | 5   | [Smallest multiple](https://projecteuler.net/problem=5)           | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem5.c) | 0.710     | 0.039   |
 | 6   | [Sum square difference](https://projecteuler.net/problem=6)       | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem6.c) | 0.235     | 0.050   |
-| 7   | [10001st prime](https://projecteuler.net/problem=7)               | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem7.c) | 5507.500  | 118.008 |
+| 7   | [10001st prime](https://projecteuler.net/problem=7)               | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem7.c) | 5083.542  | 208.847 |
 | 8   | [Largest product in a series](https://projecteuler.net/problem=8) | - | - |
 | 9   | [Special Pythagorean triplet](https://projecteuler.net/problem=9) | - | - |
 
