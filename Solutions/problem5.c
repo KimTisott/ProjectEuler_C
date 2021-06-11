@@ -1,27 +1,17 @@
-long problem5()
+#define COUNT 20
+
+unsigned long long gcd(unsigned long long a, unsigned long long b)
 {
-    long result = 1;
-
-    for (long i = 20; i > 0; i--)
-    {
-        result = lcm(result, i);
-    }
-
-    return result;
-}
-
-long gcd(long a, long b)
-{
-    long r;
-
     if (a > b)
     {
-        long t = a;
+        unsigned long long t = a;
 
         a = b;
 
         b = t;
     }
+
+    unsigned long long r;
 
     while (r = a % b)
     {
@@ -33,9 +23,21 @@ long gcd(long a, long b)
     return b;
 }
 
-long lcm(long a, long b)
+unsigned long long lcm(unsigned long long a, unsigned long long b)
 {
-    long long p = (long long)a * b;
+    unsigned long long p = (unsigned long long)a * b;
 
     return p / gcd(a, b);
+}
+
+unsigned long long problem5()
+{
+    unsigned long long result = 1, count = COUNT;
+
+    for (int i = count; i > 0; i--)
+    {
+        result = lcm(result, i);
+    }
+
+    return result;
 }

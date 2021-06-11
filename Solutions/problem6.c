@@ -1,12 +1,10 @@
-int problem6()
+#define COUNT 100
+
+unsigned long long problem6()
 {
-    int result = 0;
+    unsigned long long result = 0, count = COUNT, sum = 0, sumSquare = 0;
 
-    int sum = 0;
-
-    int sumSquare = 0;
-
-    for (int i = 1; i <= 100; i++)
+    for (unsigned long long i = 1; i <= count; i++)
     {
         sum += i;
 

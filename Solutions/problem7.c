@@ -1,42 +1,31 @@
-int problem7()
+#define INDEX 10001
+#define LIMIT 1000000
+
+#include <stdlib.h>
+
+unsigned long long problem7()
 {
-    int result = 0;
+    unsigned long long result, count = 0, limit = LIMIT, target = INDEX;
 
-    int primes[10001] = { 2, 3 };
+    char* sieve = calloc(limit, sizeof * sieve);
 
-    for (int n = 2; n < 10001; n++)
+    for (result = 2; result < limit; result++)
     {
-        for (int x = primes[n - 1] + 2; ; x += 2)
+        if (!sieve[result])
         {
-            int prime = 1;
+            unsigned long long j;
 
-            for (int i = 0; i < n; i++)
+            count++;
+
+            if (count == target)
             {
-                int p = primes[i];
-
-                if (p * p > x)
-                {
-                    break;
-                }
-
-                if (x % p == 0)
-                {
-                    prime = 0;
-
-                    break;
-                }
+                return result;
             }
 
-            if (prime)
+            for (j = result * 2; j < limit; j += result)
             {
-                primes[n] = x;
-
-                break;
+                sieve[j] = 1;
             }
         }
     }
-
-    result = primes[10000];
-
-    return result;
 }

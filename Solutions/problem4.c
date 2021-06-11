@@ -18,9 +18,9 @@ int is_palindromic(unsigned long long number)
 
 unsigned long long problem4()
 {
-    unsigned long long result = 0, limit = 1;
+    unsigned long long result = 0, digits = DIGITS, limit = 1;
 
-    for (int i = 0; i < DIGITS; i++)
+    for (int i = 0; i < digits; i++)
     {
         limit *= 10;
     }

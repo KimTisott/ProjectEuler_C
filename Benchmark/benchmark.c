@@ -1,5 +1,5 @@
 #include <math.h>
-#include <stdio.h>s
+#include <stdio.h>
 #include <windows.h>
 
 double time()
@@ -15,11 +15,7 @@ double time()
 
 void benchmark(void* function(), int count, int progress)
 {
-	double *times = malloc(sizeof(double) * count);
-	double total = 0.0, mean, sd = 0.0;
-	
-	printf("Benchmark Started\n");
-	printf("------------------------------\n");
+	double *times = malloc(sizeof(double) * count), total = 0.0, mean, sd = 0.0;
 
 	for (int i = 0; i < count; i++)
 	{
@@ -35,7 +31,7 @@ void benchmark(void* function(), int count, int progress)
 
 		if (progress)
 		{
-			printf("[%04d] %.1fus\n", i + 1, times[i] * 1000000);
+			printf("[%04d] %.20fus\n", i + 1, times[i] * 1000000);
 		}
 	}
 
@@ -51,4 +47,6 @@ void benchmark(void* function(), int count, int progress)
 	printf("Mean: %.3fus\n", mean * 1000000);
 
 	printf("SD: %.3fus\n", sqrt(sd / count) * 1000000);
+
+	printf("------------------------------\n");
 }
