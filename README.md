@@ -14,7 +14,7 @@
 | 5   | [Smallest multiple](https://projecteuler.net/problem=5)                      | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem5.c) | 0.710     | 0.039   |
 | 6   | [Sum square difference](https://projecteuler.net/problem=6)                  | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem6.c) | 0.206     | 0.032   |
 | 7   | [10001st prime](https://projecteuler.net/problem=7)                          | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem7.c) | 5079.883  | 257.699 |
-| 8   | [Largest product in a series](https://projecteuler.net/problem=8)            | 
+| 8   | [Largest product in a series](https://projecteuler.net/problem=8)            |
 | 9   | [Special Pythagorean triplet](https://projecteuler.net/problem=9)            | 
 | 10  | [Summation of primes](https://projecteuler.net/problem=10)                   | 
 | 11  | [Largest product in a grid](https://projecteuler.net/problem=11)             | 
@@ -80,3 +80,9 @@ Every implementation must be:
 - Running system information
 - Show allocated memory
 - Linux compatibility
+
+### References
+
+<a href="https://projecteuler.net">
+  <img src="https://projecteuler.net/themes/20210213/logo_default.png">
+</a>
