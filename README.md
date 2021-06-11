@@ -11,7 +11,7 @@
 | 2   | [Even Fibonacci numbers](https://projecteuler.net/problem=2)      | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem2.c) | 0.017     |
 | 3   | [Largest prime factor](https://projecteuler.net/problem=3)        | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem3.c) | 0.017     |
 | 4   | [Largest palindrome product](https://projecteuler.net/problem=4)  | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem4.c) | 48.754    |
-| 5   | [Smallest multiple](https://projecteuler.net/problem=5)           | - | - |
+| 5   | [Smallest multiple](https://projecteuler.net/problem=5)           | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem5.c) | 0.013     |
 | 6   | [Sum square difference](https://projecteuler.net/problem=6)       | - | - |
 | 7   | [10001st prime](https://projecteuler.net/problem=7)               | - | - |
 | 8   | [Largest product in a series](https://projecteuler.net/problem=8) | - | - |
