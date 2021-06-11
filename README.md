@@ -14,10 +14,9 @@
 | 5   | [Smallest multiple](https://projecteuler.net/problem=5)           | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem5.c) | 0.710     | 0.039   |
 | 6   | [Sum square difference](https://projecteuler.net/problem=6)       | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem6.c) | 0.206     | 0.032   |
 | 7   | [10001st prime](https://projecteuler.net/problem=7)               | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem7.c) | 5079.883  | 257.699 |
-| 8   | [Largest product in a series](https://projecteuler.net/problem=8) | - | - |
-| 9   | [Special Pythagorean triplet](https://projecteuler.net/problem=9) | - | - |
+| 8   | [Largest product in a series](https://projecteuler.net/problem=8) | 
+| 9   | [Special Pythagorean triplet](https://projecteuler.net/problem=9) | 
 
-Benchmark configs:
 ```c
 // Debug x64
 // main.c 4-6:
@@ -26,7 +25,9 @@ Benchmark configs:
 #define Progress 0
 ```
 
-Every solution must be:
+Performance improvements and suggestions can be submitted [here](https://github.com/KimTisott/ProjectEuler-Solutions/issues/new).
+
+Every implementation must be:
 - Parameterized: the problem inputs must be defined at compile time
 - Deterministic: one input results in the same output every run
 - Non-trivial: there can be no unexplained values in the code
