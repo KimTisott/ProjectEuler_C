@@ -6,7 +6,7 @@
 </p>
 
 | ID  | Problem                                                           | Solution                                                                                | Mean (μs) | SD (μs) |
-| :-: | :---------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :-------: | :-----: |
+| :-: | :---------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | --------: | ------: |
 | 1   | [Multiples of 3 and 5](https://projecteuler.net/problem=1)        | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem1.c) | 0.072     | 0.047   |
 | 2   | [Even Fibonacci numbers](https://projecteuler.net/problem=2)      | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem2.c) | 0.057     | 0.051   |
 | 3   | [Largest prime factor](https://projecteuler.net/problem=3)        | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem3.c) | 42.687    | 3.210   |
