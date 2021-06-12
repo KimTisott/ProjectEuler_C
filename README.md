@@ -15,7 +15,7 @@
 | 6   | [Sum square difference](https://projecteuler.net/problem=6)                  | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem6.c) | 0.206     | 0.027   |
 | 7   | [10001st prime](https://projecteuler.net/problem=7)                          | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem7.c) | 4862.515  | 146.348 |
 | 8   | [Largest product in a series](https://projecteuler.net/problem=8)            | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem8.c) | 19.949    | 0.317   |
-| 9   | [Special Pythagorean triplet](https://projecteuler.net/problem=9)            | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem9.c) | 0.123     | 0.072   |
+| 9   | [Special Pythagorean triplet](https://projecteuler.net/problem=9)            | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem9.c) | 0.123     | 0.062   |
 | 10  | [Summation of primes](https://projecteuler.net/problem=10)                   | 
 | 11  | [Largest product in a grid](https://projecteuler.net/problem=11)             | 
 | 12  | [Highly divisible triangular number](https://projecteuler.net/problem=12)    | 
