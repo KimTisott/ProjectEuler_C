@@ -144,7 +144,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Benchmark\benchmark.c" />
+    <ClCompile Include="Helpers\gcd.c" />
+    <ClCompile Include="Helpers\lcm.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="Solutions\problem8.c" />
+    <ClCompile Include="Solutions\problem9.c" />
     <ClCompile Include="Solutions\problem1.c" />
     <ClCompile Include="Solutions\problem2.c" />
     <ClCompile Include="Solutions\problem3.c" />

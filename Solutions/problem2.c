@@ -8,7 +8,7 @@ unsigned long long problem2()
 	{
 		result += current;
 
-		next = before + 2 * current;
+		next = before + (current << 1);
 
 		current = next + before + current;
 

@@ -6,7 +6,7 @@ unsigned long long gauss(unsigned long long number)
 {
 	unsigned long long multiples = (LIMIT - 1) / number;
 
-	return number * (multiples * (multiples + 1) / 2);
+	return number * (multiples * (multiples + 1) >> 1);
 }
 
 unsigned long long problem1()

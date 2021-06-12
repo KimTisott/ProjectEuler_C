@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Solutions">
       <UniqueIdentifier>{58077407-a3e1-406d-b968-4752051202a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{0f2d7c45-9958-4724-8c0f-ac1a9b205bfc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Benchmark\benchmark.h">
@@ -52,6 +55,18 @@
     </ClCompile>
     <ClCompile Include="Solutions\problem7.c">
       <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutions\problem8.c">
+      <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutions\problem9.c">
+      <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\gcd.c">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\lcm.c">
+      <Filter>Source Files\Helpers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -13,17 +13,24 @@ double time()
 	return (double)t.QuadPart / (double)f.QuadPart;
 }
 
-void benchmark(void* function(), int count, int progress)
+void benchmark(void* function(), unsigned long long answer, unsigned long long count, int progress)
 {
-	double *times = malloc(sizeof(double) * count), total = 0.0, mean, sd = 0.0;
-
+	double *times = malloc(sizeof(double) * count), total = 0, mean, sd = 0;
+	
 	for (int i = 0; i < count; i++)
 	{
 		double current = time();
 
-		function();
+		unsigned long long result = function();
 
 		current = time() - current;
+
+		if (answer != 0 && result != answer)
+		{
+			printf("Result (%llu) different than Answer (%llu)\n", result, answer);
+
+			break;
+		}
 
 		times[i] = current;
 
@@ -31,22 +38,25 @@ void benchmark(void* function(), int count, int progress)
 
 		if (progress)
 		{
-			printf("[%04d] %.20fus\n", i + 1, times[i] * 1000000);
+			printf("[%04d] %.3fus\n", i + 1, times[i] * 1000000);
 		}
 	}
 
-	mean = total / count;
-
-	for (int i = 0; i < count; i++)
+	if (total)
 	{
-		sd += pow(times[i] - mean, 2);
+		mean = total / count;
+
+		for (int i = 0; i < count; i++)
+		{
+			sd += pow(times[i] - mean, 2);
+		}
+
+		printf("Total: %.3fus\n", total * 1000000);
+
+		printf("Mean: %.3fus\n", mean * 1000000);
+
+		printf("SD: %.3fus\n", sqrt(sd / count) * 1000000);
 	}
-
-	printf("Total: %.3fus\n", total * 1000000);
-
-	printf("Mean: %.3fus\n", mean * 1000000);
-
-	printf("SD: %.3fus\n", sqrt(sd / count) * 1000000);
 
 	printf("------------------------------\n");
 }
