@@ -7,15 +7,15 @@
 
 | ID  | Problem                                                                      | Solution                                                                                | Mean (μs) | SD (μs) |
 | :-: | :--------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | --------: | ------: |
-| 1   | [Multiples of 3 and 5](https://projecteuler.net/problem=1)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem1.c) | 0.072     | 0.047   |
-| 2   | [Even Fibonacci numbers](https://projecteuler.net/problem=2)                 | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem2.c) | 0.057     | 0.051   |
-| 3   | [Largest prime factor](https://projecteuler.net/problem=3)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem3.c) | 42.687    | 3.210   |
-| 4   | [Largest palindrome product](https://projecteuler.net/problem=4)             | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem4.c) | 773.424   | 40.034  |
-| 5   | [Smallest multiple](https://projecteuler.net/problem=5)                      | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem5.c) | 0.710     | 0.039   |
-| 6   | [Sum square difference](https://projecteuler.net/problem=6)                  | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem6.c) | 0.206     | 0.032   |
-| 7   | [10001st prime](https://projecteuler.net/problem=7)                          | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem7.c) | 5079.883  | 257.699 |
-| 8   | [Largest product in a series](https://projecteuler.net/problem=8)            |
-| 9   | [Special Pythagorean triplet](https://projecteuler.net/problem=9)            | 
+| 1   | [Multiples of 3 and 5](https://projecteuler.net/problem=1)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem1.c) | 0.056     | 0.065   |
+| 2   | [Even Fibonacci numbers](https://projecteuler.net/problem=2)                 | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem2.c) | 0.058     | 0.061   |
+| 3   | [Largest prime factor](https://projecteuler.net/problem=3)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem3.c) | 44.392    | 4.998   |
+| 4   | [Largest palindrome product](https://projecteuler.net/problem=4)             | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem4.c) | 785.194   | 39.529  |
+| 5   | [Smallest multiple](https://projecteuler.net/problem=5)                      | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem5.c) | 0.527     | 0.048   |
+| 6   | [Sum square difference](https://projecteuler.net/problem=6)                  | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem6.c) | 0.206     | 0.027   |
+| 7   | [10001st prime](https://projecteuler.net/problem=7)                          | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem7.c) | 4862.515  | 146.348 |
+| 8   | [Largest product in a series](https://projecteuler.net/problem=8)            | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem8.c) | 19.949    | 0.317   |
+| 9   | [Special Pythagorean triplet](https://projecteuler.net/problem=9)            | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem9.c) | 0.132     | 0.070   |
 | 10  | [Summation of primes](https://projecteuler.net/problem=10)                   | 
 | 11  | [Largest product in a grid](https://projecteuler.net/problem=11)             | 
 | 12  | [Highly divisible triangular number](https://projecteuler.net/problem=12)    | 
@@ -57,14 +57,6 @@
 | 48  | [Self powers](https://projecteuler.net/problem=48)                           | 
 | 49  | [Prime permutations](https://projecteuler.net/problem=49)                    | 
 | 50  | [Consecutive prime sum](https://projecteuler.net/problem=50)                 | 
-
-```c
-// Debug x64
-// main.c 4-6:
-#define Function problemX
-#define Repetitions 1000
-#define Progress 0
-```
 
 Performance improvements and suggestions can be submitted [here](https://github.com/KimTisott/ProjectEuler-Solutions/issues/new).
 
