@@ -77,5 +77,8 @@
     <ClCompile Include="Helpers\nth_prime_upper.c">
       <Filter>Source Files\Helpers</Filter>
     </ClCompile>
+    <ClCompile Include="Solutions\problem10.c">
+      <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

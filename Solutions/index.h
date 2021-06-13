@@ -7,3 +7,4 @@ void problem6();
 void problem7();
 void problem8();
 void problem9();
+void problem10();
