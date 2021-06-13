@@ -10,10 +10,10 @@
 | 1   | [Multiples of 3 and 5](https://projecteuler.net/problem=1)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem1.c) | 0.056     | 0.065   |
 | 2   | [Even Fibonacci numbers](https://projecteuler.net/problem=2)                 | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem2.c) | 0.058     | 0.061   |
 | 3   | [Largest prime factor](https://projecteuler.net/problem=3)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem3.c) | 4.688     | 0.061   |
-| 4   | [Largest palindrome product](https://projecteuler.net/problem=4)             | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem4.c) | 475.584   | 30.285  |
+| 4   | [Largest palindrome product](https://projecteuler.net/problem=4)             | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem4.c) | 58.511    | 1.166   |
 | 5   | [Smallest multiple](https://projecteuler.net/problem=5)                      | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem5.c) | 0.527     | 0.048   |
 | 6   | [Sum square difference](https://projecteuler.net/problem=6)                  | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem6.c) | 0.206     | 0.027   |
-| 7   | [10001st prime](https://projecteuler.net/problem=7)                          | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem7.c) | 4862.515  | 146.348 |
+| 7   | [10001st prime](https://projecteuler.net/problem=7)                          | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem7.c) | 630.660   | 30.990  |
 | 8   | [Largest product in a series](https://projecteuler.net/problem=8)            | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem8.c) | 19.947    | 0.314   |
 | 9   | [Special Pythagorean triplet](https://projecteuler.net/problem=9)            | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem9.c) | 0.123     | 0.062   |
 | 10  | [Summation of primes](https://projecteuler.net/problem=10)                   | 
