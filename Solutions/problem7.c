@@ -1,12 +1,11 @@
 #define INDEX 10001
-#define LIMIT 1000000
 
 #include <stdio.h>
 #include <stdlib.h>
 
 unsigned long long problem7()
 {
-    unsigned long long result = 0, count = 0, limit = LIMIT, target = INDEX;
+    unsigned long long result = 0, count = 0, limit = nth_prime_upper(INDEX), index = INDEX;
 
     char* sieve = calloc(limit, sizeof * sieve);
 
@@ -14,16 +13,14 @@ unsigned long long problem7()
     {
         if (!sieve[result])
         {
-            unsigned long long j;
-
             count++;
 
-            if (count == target)
+            if (count == index)
             {
                 break;
             }
 
-            for (j = result << 1; j < limit; j += result)
+            for (unsigned long long j = result << 1; j < limit; j += result)
             {
                 sieve[j] = 1;
             }

@@ -74,5 +74,8 @@
     <ClCompile Include="Helpers\is_palindrome.c">
       <Filter>Source Files\Helpers</Filter>
     </ClCompile>
+    <ClCompile Include="Helpers\nth_prime_upper.c">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
