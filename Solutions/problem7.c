@@ -5,13 +5,15 @@
 
 unsigned long long problem7()
 {
-    unsigned long long result = 0, count = 0, limit = nth_prime_upper(INDEX), index = INDEX;
+    unsigned long long result, count = 0, limit = nth_prime_upper(INDEX), index = INDEX;
 
-    char* sieve = calloc(limit, sizeof * sieve);
+    char* sieve = malloc(limit * sizeof * sieve);
+
+    memset(sieve, 1, 1);
 
     for (result = 2; result < limit; result++)
     {
-        if (!sieve[result])
+        if (sieve[result])
         {
             count++;
 
@@ -20,9 +22,9 @@ unsigned long long problem7()
                 break;
             }
 
-            for (unsigned long long j = result << 1; j < limit; j += result)
+            for (unsigned long long i = result; result * i < limit; i++)
             {
-                sieve[j] = 1;
+                sieve[result * i] = 0;
             }
         }
     }
