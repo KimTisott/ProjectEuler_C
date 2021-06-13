@@ -1,28 +1,32 @@
 #define DIGITS 3
 
-#include <math.h>
-
 unsigned long long problem4()
 {
-    unsigned long long result = 0, digits = DIGITS, base, limit = 1;
+    unsigned long long result = 0, digits = DIGITS, max = 1, base, limit, decrement;
 
     for (int i = 0; i < digits; i++)
     {
-        limit *= 10;
+        max *= 10;
     }
 
-    base = limit / 10;
+    base = max / 10;
 
-    limit--;
+    max--;
 
-    for (unsigned long long i = limit; i > base; i--)
+    if (digits % 2)
     {
-        if (i * i < result)
-        {
-            break;
-        }
+        limit = max - 9;
+        decrement = 11;
+    }
+    else
+    {
+        limit = max;
+        decrement = 1;
+    }
 
-        for (unsigned long long j = i; j > base; j--)
+    for (unsigned long long i = max; i > base; i--)
+    {
+        for (unsigned long long j = limit; j > base; j -= decrement)
         {
             unsigned long long product = i * j;
 
