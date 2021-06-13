@@ -68,5 +68,11 @@
     <ClCompile Include="Helpers\lcm.c">
       <Filter>Source Files\Helpers</Filter>
     </ClCompile>
+    <ClCompile Include="Helpers\faps.c">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\is_palindrome.c">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

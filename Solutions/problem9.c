@@ -12,7 +12,7 @@ unsigned long long problem9()
         {
             x = i + (i % 2) + 1;
 
-            while (x < 2 * i && x <= sum / (i << 1))
+            while (x < (i << 1) && x <= sum / (i << 1))
             {
                 if (sum / (i << 1) % x == 0 && gcd(x, i))
                 {

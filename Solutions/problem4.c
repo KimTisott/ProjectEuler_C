@@ -2,44 +2,38 @@
 
 #include <math.h>
 
-int is_palindromic(unsigned long long number)
-{
-    unsigned long long reversed = 0, temp = number;
-
-    while (temp)
-    {
-        reversed = 10 * reversed + (temp % 10);
-
-        temp /= 10;
-    }
-
-    return reversed == number;
-}
-
 unsigned long long problem4()
 {
-    unsigned long long result = 0, digits = DIGITS, limit = 1;
+    unsigned long long result = 0, digits = DIGITS, base, limit = 1;
 
     for (int i = 0; i < digits; i++)
     {
         limit *= 10;
     }
 
-    for (unsigned long long i = limit - 1; i > 0; i--)
+    base = limit / 10;
+
+    limit--;
+
+    for (unsigned long long i = limit; i > base; i--)
     {
         if (i * i < result)
         {
             break;
         }
 
-        for (unsigned long long j = i; j > fmax(floor(result / i), pow(10, log10(i) - 1)); j--)
+        for (unsigned long long j = i; j > base; j--)
         {
-            unsigned long long temp = i * j;
+            unsigned long long product = i * j;
 
-            if (is_palindromic(temp))
+            if (product > result && is_palindrome(product))
             {
-                result = temp;
+                result = product;
 
+                break;
+            }
+            else if (product < result)
+            {
                 break;
             }
         }

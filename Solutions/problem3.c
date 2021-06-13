@@ -2,13 +2,24 @@
 
 unsigned long long problem3()
 {
-	unsigned long long result = MULT;
+	unsigned long long result = MULT, counter = 2;
 
-	for (unsigned long long i = 2; i < result; i++)
+	while (counter * counter <= result)
 	{
-		while (result % i == 0)
+		if (result % counter == 0)
 		{
-			result /= i;
+			result /= counter;
+		}
+		else
+		{
+			if (counter == 2)
+			{
+				counter++;
+			}
+			else
+			{
+				counter += 2;
+			}
 		}
 	}
 
