@@ -7,8 +7,8 @@
 
 | ID  | Problem                                                                      | Solution                                                                                 | Mean (μs) | SD (μs) |
 | :-: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | --------: | ------: |
-| 1   | [Multiples of 3 and 5](https://projecteuler.net/problem=1)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem1.c)  | 0.056     | 0.065   |
-| 2   | [Even Fibonacci numbers](https://projecteuler.net/problem=2)                 | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem2.c)  | 0.058     | 0.061   |
+| 1   | [Multiples of 3 and 5](https://projecteuler.net/problem=1)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem1.c)  | 0.056     | 0.051   |
+| 2   | [Even Fibonacci numbers](https://projecteuler.net/problem=2)                 | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem2.c)  | 0.058     | 0.051   |
 | 3   | [Largest prime factor](https://projecteuler.net/problem=3)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem3.c)  | 4.688     | 0.061   |
 | 4   | [Largest palindrome product](https://projecteuler.net/problem=4)             | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem4.c)  | 58.511    | 1.166   |
 | 5   | [Smallest multiple](https://projecteuler.net/problem=5)                      | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem5.c)  | 0.527     | 0.048   |
