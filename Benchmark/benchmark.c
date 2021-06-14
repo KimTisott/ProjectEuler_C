@@ -15,7 +15,7 @@ double time()
 
 void benchmark(void* function(), unsigned long long answer, unsigned long long count, int progress)
 {
-	double *times = malloc(sizeof(double) * count), total = 0, best = ULLONG_MAX, worst = 0, mean, sd = 0;
+	double *times = malloc(sizeof(double) * count), total = 0, mean, sd = 0;
 	
 	for (int i = 0; i < count; i++)
 	{
@@ -30,15 +30,6 @@ void benchmark(void* function(), unsigned long long answer, unsigned long long c
 			printf("Result (%llu) different than Answer (%llu)\n", result, answer);
 
 			break;
-		}
-
-		if (current < best)
-		{
-			best = current;
-		}
-		else if (current > worst)
-		{
-			worst = current;
 		}
 
 		times[i] = current;
@@ -59,10 +50,6 @@ void benchmark(void* function(), unsigned long long answer, unsigned long long c
 		{
 			sd += pow(times[i] - mean, 2);
 		}
-
-		printf("Best: %.3fus\n", best * 1000000);
-
-		printf("Worst: %.3fus\n", worst * 1000000);
 
 		printf("Mean: %.3fus\n", mean * 1000000);
 

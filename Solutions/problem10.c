@@ -17,9 +17,9 @@ unsigned long long problem10()
         {
             result += i;
 
-            for (unsigned long long j = i; i * j < limit; j++)
+            for (unsigned long long j = i * i; j < limit; j += i)
             {
-                sieve[i * j] = 0;
+                sieve[j] = 0;
             }
         }
     }

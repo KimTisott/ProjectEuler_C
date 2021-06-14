@@ -22,9 +22,9 @@ unsigned long long problem7()
                 break;
             }
 
-            for (unsigned long long i = result; result * i < limit; i++)
+            for (unsigned long long i = result * result; i < limit; i += result)
             {
-                sieve[result * i] = 0;
+                sieve[i] = 0;
             }
         }
     }
