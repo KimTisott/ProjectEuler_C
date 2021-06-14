@@ -13,10 +13,10 @@
 | 4   | [Largest palindrome product](https://projecteuler.net/problem=4)             | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem4.c)  | 58.511    | 1.166   |
 | 5   | [Smallest multiple](https://projecteuler.net/problem=5)                      | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem5.c)  | 0.527     | 0.048   |
 | 6   | [Sum square difference](https://projecteuler.net/problem=6)                  | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem6.c)  | 0.206     | 0.027   |
-| 7   | [10001st prime](https://projecteuler.net/problem=7)                          | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem7.c)  | 627.011   | 45.287  |
+| 7   | [10001st prime](https://projecteuler.net/problem=7)                          | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem7.c)  | 537.019   | 31.965  |
 | 8   | [Largest product in a series](https://projecteuler.net/problem=8)            | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem8.c)  | 19.947    | 0.314   |
 | 9   | [Special Pythagorean triplet](https://projecteuler.net/problem=9)            | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem9.c)  | 0.123     | 0.062   |
-| 10  | [Summation of primes](https://projecteuler.net/problem=10)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem10.c) | 13176.534 | 593.607 |
+| 10  | [Summation of primes](https://projecteuler.net/problem=10)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem10.c) | 11672.656 | 444.320 |
 | 11  | [Largest product in a grid](https://projecteuler.net/problem=11)             | 
 | 12  | [Highly divisible triangular number](https://projecteuler.net/problem=12)    | 
 | 13  | [Large sum](https://projecteuler.net/problem=13)                             | 
