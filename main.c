@@ -1,8 +1,8 @@
 #include "Benchmark/benchmark.h"
 #include "Solutions/index.h"
 
-#define Function problem10
-#define Answer 142913828922
+#define Function problem11
+#define Answer 70600674
 #define Repetitions 1000
 #define Progress 0
 

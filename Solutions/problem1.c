@@ -4,7 +4,7 @@
 
 unsigned long long problem1()
 {
-	unsigned long long result = faps(DIV1, LIMIT) + faps(DIV2, LIMIT) - faps(DIV1 * DIV2, LIMIT);
+	unsigned long long result = arithmetic_series(DIV1, LIMIT) + arithmetic_series(DIV2, LIMIT) - arithmetic_series(DIV1 * DIV2, LIMIT);
 
 	return result;
 }

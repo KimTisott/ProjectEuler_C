@@ -68,7 +68,7 @@
     <ClCompile Include="Helpers\lcm.c">
       <Filter>Source Files\Helpers</Filter>
     </ClCompile>
-    <ClCompile Include="Helpers\faps.c">
+    <ClCompile Include="Helpers\arithmetic_series.c">
       <Filter>Source Files\Helpers</Filter>
     </ClCompile>
     <ClCompile Include="Helpers\is_palindrome.c">
@@ -79,6 +79,12 @@
     </ClCompile>
     <ClCompile Include="Solutions\problem10.c">
       <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutions\problem11.c">
+      <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\max.c">
+      <Filter>Source Files\Helpers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
