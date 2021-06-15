@@ -14,7 +14,7 @@ unsigned long long problem9()
 
             while (x < (i << 1) && x <= sum / (i << 1))
             {
-                if (sum / (i << 1) % x == 0 && gcd(x, i))
+                if (sum / (i << 1) % x == 0 && greatest_common_divisor(x, i))
                 {
                     z = (sum >> 1) / (x * i);
 

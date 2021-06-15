@@ -145,8 +145,8 @@
   <ItemGroup>
     <ClCompile Include="Benchmark\benchmark.c" />
     <ClCompile Include="Helpers\arithmetic_series.c" />
-    <ClCompile Include="Helpers\gcd.c" />
-    <ClCompile Include="Helpers\lcm.c" />
+    <ClCompile Include="Helpers\greatest_common_divisor.c" />
+    <ClCompile Include="Helpers\least_common_multiple.c" />
     <ClCompile Include="Helpers\is_palindrome.c" />
     <ClCompile Include="Helpers\max.c" />
     <ClCompile Include="main.c" />

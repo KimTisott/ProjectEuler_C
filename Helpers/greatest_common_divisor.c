@@ -1,4 +1,4 @@
-unsigned long long gcd(unsigned long long a, unsigned long long b)
+unsigned long long greatest_common_divisor(unsigned long long a, unsigned long long b)
 {
     unsigned long long temp;
 

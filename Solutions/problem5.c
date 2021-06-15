@@ -6,7 +6,7 @@ unsigned long long problem5()
 
     for (int i = COUNT; i > 0; i--)
     {
-        result = lcm(result, i);
+        result = least_common_multiple(result, i);
     }
 
     return result;
