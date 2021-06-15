@@ -79,6 +79,14 @@ Every implementation must be:
   <img src="https://projecteuler.net/themes/20210213/logo_default.png">
 </a>
 
+<a href="https://projecteuler.chat">
+  <img src="https://projecteuler.chat/ext/euler13/pechat/styles/prosilver/theme/images/site_logo.png">
+</a>
+
+<a href="https://mathoverflow.net">
+  <img src="https://cdn.sstatic.net/Sites/mathoverflow/Img/logo.svg?v=3a674b060adf">
+</a>
+
 ### Contact Information
 <a href="https://www.hackerrank.com/kim_nicolay">
   <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/160_Hackerrank_logo_logos-64.png">
