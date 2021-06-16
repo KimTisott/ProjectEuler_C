@@ -1,15 +1,16 @@
 #define LIMIT 2000000
 
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 
 unsigned long long problem10()
 {
-    unsigned long long result = 0, limit = LIMIT;
+    unsigned long long result = 2, limit = LIMIT;
 
     char* sieve = calloc(limit, sizeof(char));
 
-    for (unsigned long long i = 2; i < limit; i++)
+    for (unsigned long long i = 3; i < limit; i += 2)
     {
         if (!sieve[i])
         {
