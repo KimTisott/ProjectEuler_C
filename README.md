@@ -18,7 +18,7 @@
 | 9   | [Special Pythagorean triplet](https://projecteuler.net/problem=9)            | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem9.c)  | 0.123     | 0.062   |
 | 10  | [Summation of primes](https://projecteuler.net/problem=10)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem10.c) | 9037.960  | 490.077 |
 | 11  | [Largest product in a grid](https://projecteuler.net/problem=11)             | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem11.c) | 8.248     | 0.251   |
-| 12  | [Highly divisible triangular number](https://projecteuler.net/problem=12)    | 
+| 12  | [Highly divisible triangular number](https://projecteuler.net/problem=12)    | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem12.c) | 88506.842 | 680.332 |
 | 13  | [Large sum](https://projecteuler.net/problem=13)                             | 
 | 14  | [Longest Collatz sequence](https://projecteuler.net/problem=14)              | 
 | 15  | [Lattice paths](https://projecteuler.net/problem=15)                         | 
