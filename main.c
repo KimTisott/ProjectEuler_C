@@ -1,10 +1,10 @@
 #include "benchmark.h"
 #include "solutions.h"
 
-#define Function problem7
-#define Answer 104743
+#define Function problem12
+#define Answer 76576500
 #define Repetitions 1000
-#define Progress 0
+#define Progress 1
 
 int main()
 {

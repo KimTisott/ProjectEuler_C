@@ -1,22 +1,30 @@
 #define DIVISORS 500
 
-#include <math.h>
+#include "../helpers.h"
 
-unsigned long long divisors_count(unsigned long long n)
+unsigned long long divisor_count(unsigned long long n)
 {
-    unsigned long long result = 0;
+    unsigned long long result = 1;
 
-    for (unsigned long long i = 1; i <= sqrt(n); i++)
+    while (n % 2 == 0)
     {
-        if (n % i == 0)
-        {
-            result++;
+        result++;
 
-            if (n / i != i)
-            {
-                result++;
-            }
+        n = n >> 1;
+    }
+
+    for (unsigned long long i = 3; i <= n; i += 2)
+    {
+        unsigned long long count = 0;
+
+        while (n % i == 0)
+        {
+            count++;
+
+            n /= i;
         }
+
+        result *= count + 1;
     }
 
     return result;
@@ -24,13 +32,15 @@ unsigned long long divisors_count(unsigned long long n)
 
 unsigned long long problem12()
 {
-    unsigned long long result = 0, divisors = DIVISORS, count = 0;
+    unsigned long long result = 0, increment = 1, divisors = DIVISORS, count = 0;
 
     while (count <= divisors)
     {
-        count = divisors_count(result);
+        result = natural_numbers_sum(increment);
 
-        result++;
+        count = divisor_count(result);
+
+        increment++;
     }
 
     return result;
