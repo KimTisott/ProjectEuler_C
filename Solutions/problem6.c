@@ -1,17 +1,16 @@
 #define COUNT 100
 
+#include "../helpers.h"
+
 unsigned long long problem6()
 {
-    unsigned long long result = 0, count = COUNT, sum = 0, sumSquare = 0;
+    unsigned long long result = 0, count = COUNT, sum, squaresSum;
 
-    for (unsigned long long i = 1; i <= count; i++)
-    {
-        sum += i;
+    sum = natural_numbers_sum(count);
 
-        sumSquare += i * i;
-    }
+    squaresSum = natural_numbers_squares_sum(count);
 
-    result = sum * sum - sumSquare;
+    result = sum * sum - squaresSum;
 
     return result;
 }

@@ -3,20 +3,27 @@
 
 unsigned long long problem8()
 {
-    unsigned long long result = 0, length = sizeof(NUMBER) - 1, digits = DIGITS;
+    unsigned long long result = 0, digits = DIGITS, length = sizeof(NUMBER) - digits - 1;
 
-    for (unsigned long long i = 0; i < length - digits; i++)
+    char* number = NUMBER;
+
+    for (unsigned long long i = 0; i < length; i++)
     {
-        unsigned long long temp = 1;
+        unsigned long long product = 1;
 
         for (unsigned long long j = 0; j < digits; j++)
         {
-            temp *= (NUMBER[i + j] - '0');
+            if (number[i + j] == '0')
+            {
+                break;
+            }
+
+            product *= (number[i + j] - '0');
         }
 
-        if (temp > result)
+        if (product > result)
         {
-            result = temp;
+            result = product;
         }
     }
 

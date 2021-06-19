@@ -20,6 +20,8 @@
                { 20, 73, 35, 29, 78, 31, 90,  1, 74, 31, 49, 71, 48, 86, 81, 16, 23, 57,  5, 54 },\
                {  1, 70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52,  1, 89, 19, 67, 48 } };
 
+#include "../helpers.h"
+
 unsigned long long problem11()
 {
 	unsigned long long result = 0, degree = DEGREE, grid[DEGREE][DEGREE] = GRID;
@@ -36,7 +38,7 @@ unsigned long long problem11()
 
             unsigned long long diagonal2 = grid[i][degree - j - 1] * grid[i + 1][degree - j - 2] * grid[i + 2][degree - j - 3] * grid[i + 3][degree - j - 4];
 
-            result = max(result, max(horizontal, max(vertical, max(diagonal1, diagonal2))));
+            result = largest(result, largest(horizontal, largest(vertical, largest(diagonal1, diagonal2))));
         }
     }
 

@@ -139,18 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Benchmark\benchmark.h" />
-    <ClInclude Include="Solutions\index.h" />
+    <ClInclude Include="benchmark.h" />
+    <ClInclude Include="helpers.h" />
+    <ClInclude Include="solutions.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Benchmark\benchmark.c" />
-    <ClCompile Include="Helpers\arithmetic_series.c" />
+    <ClCompile Include="benchmark.c" />
+    <ClCompile Include="Helpers\natural_numbers_sum.c" />
     <ClCompile Include="Helpers\greatest_common_divisor.c" />
     <ClCompile Include="Helpers\least_common_multiple.c" />
     <ClCompile Include="Helpers\is_palindrome.c" />
-    <ClCompile Include="Helpers\max.c" />
+    <ClCompile Include="Helpers\largest.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="Helpers\nth_prime_upper.c" />
+    <ClCompile Include="natural_numbers_squares_sum.c" />
+    <ClCompile Include="smallest.c" />
     <ClCompile Include="Solutions\problem10.c" />
     <ClCompile Include="Solutions\problem11.c" />
     <ClCompile Include="Solutions\problem12.c" />

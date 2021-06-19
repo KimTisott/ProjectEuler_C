@@ -1,6 +1,7 @@
 #define SUM 1000
 
 #include <math.h>
+#include "../helpers.h"
 
 unsigned long long problem9()
 {

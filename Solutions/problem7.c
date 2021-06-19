@@ -2,14 +2,15 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "../helpers.h"
 
 unsigned long long problem7()
 {
-    unsigned long long result, count = 0, limit = nth_prime_upper(INDEX), index = INDEX;
+    unsigned long long result, index = INDEX, limit = nth_prime_upper(index), count = 1;
 
     char* sieve = calloc(limit, sizeof(char));
 
-    for (result = 2; result < limit; result++)
+    for (result = 3; result < limit; result += 2)
     {
         if (!sieve[result])
         {

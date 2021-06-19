@@ -1,5 +1,7 @@
 #define DIGITS 3
 
+#include "../helpers.h"
+
 unsigned long long problem4()
 {
     unsigned long long result = 0, digits = DIGITS, max = 1, base, limit, decrement;
@@ -26,18 +28,26 @@ unsigned long long problem4()
 
     for (unsigned long long i = max; i > base; i--)
     {
+        if (i * i < result)
+        {
+            break;
+        }
+
         for (unsigned long long j = limit; j > base; j -= decrement)
         {
             unsigned long long product = i * j;
 
-            if (product > result && is_palindrome(product))
+            if (product < result)
+            {
+                break;
+            }
+            
+            if (is_palindrome(product))
             {
                 result = product;
 
-                break;
-            }
-            else if (product < result)
-            {
+                base = smallest(i, j);
+
                 break;
             }
         }

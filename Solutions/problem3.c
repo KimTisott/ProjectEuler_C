@@ -2,7 +2,7 @@
 
 unsigned long long problem3()
 {
-	unsigned long long result = MULT, counter = 2;
+	unsigned long long result = MULT, counter = 3;
 
 	while (counter * counter <= result)
 	{
@@ -12,14 +12,7 @@ unsigned long long problem3()
 		}
 		else
 		{
-			if (counter == 2)
-			{
-				counter++;
-			}
-			else
-			{
-				counter += 2;
-			}
+			counter += 2;
 		}
 	}
 

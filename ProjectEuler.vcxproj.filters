@@ -21,15 +21,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Benchmark\benchmark.h">
+    <ClInclude Include="benchmark.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Solutions\index.h">
+    <ClInclude Include="solutions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Benchmark\benchmark.c">
+    <ClCompile Include="benchmark.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.c">
@@ -68,7 +71,7 @@
     <ClCompile Include="Helpers\least_common_multiple.c">
       <Filter>Source Files\Helpers</Filter>
     </ClCompile>
-    <ClCompile Include="Helpers\arithmetic_series.c">
+    <ClCompile Include="Helpers\natural_numbers_sum.c">
       <Filter>Source Files\Helpers</Filter>
     </ClCompile>
     <ClCompile Include="Helpers\is_palindrome.c">
@@ -83,11 +86,17 @@
     <ClCompile Include="Solutions\problem11.c">
       <Filter>Source Files\Solutions</Filter>
     </ClCompile>
-    <ClCompile Include="Helpers\max.c">
+    <ClCompile Include="Helpers\largest.c">
       <Filter>Source Files\Helpers</Filter>
     </ClCompile>
     <ClCompile Include="Solutions\problem12.c">
       <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="smallest.c">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="natural_numbers_squares_sum.c">
+      <Filter>Source Files\Helpers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
