@@ -89,10 +89,16 @@
     <ClCompile Include="Solutions\problem12.c">
       <Filter>Source Files\Solutions</Filter>
     </ClCompile>
-    <ClCompile Include="smallest.c">
+    <ClCompile Include="Helpers\smallest.c">
       <Filter>Source Files\Helpers</Filter>
     </ClCompile>
-    <ClCompile Include="natural_numbers_squares_sum.c">
+    <ClCompile Include="Helpers\natural_numbers_squares_sum.c">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Solutions\problem13.c">
+      <Filter>Source Files\Solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\divisor_count.c">
       <Filter>Source Files\Helpers</Filter>
     </ClCompile>
   </ItemGroup>

@@ -62,3 +62,8 @@ UBENCH(solutions, problem12)
 {
 	problem12();
 }
+
+UBENCH(solutions, problem13)
+{
+	problem13();
+}
