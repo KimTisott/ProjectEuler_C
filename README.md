@@ -2,11 +2,11 @@
   <a href="https://projecteuler.net">
     <img src="https://projecteuler.net/images/clipart/euler_portrait.png">
   </a>
-  <br>My overly optimized implementations for solutions of <a href="https://projecteuler.net">Project Euler</a> challenges</br>
+  <br>My code efficient implementations for solutions of <a href="https://projecteuler.net">Project Euler</a> problems</br>
 </p>
 
 | ID  | Problem                                                                      | Solution                                                                                 | Mean       |
-| :-: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | ---------: |
+| :-: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | :--------: |
 | 1   | [Multiples of 3 and 5](https://projecteuler.net/problem=1)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem1.c)  | 0.099 μs   |
 | 2   | [Even Fibonacci numbers](https://projecteuler.net/problem=2)                 | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem2.c)  | 0.072 μs   |
 | 3   | [Largest prime factor](https://projecteuler.net/problem=3)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem3.c)  | 4.506 μs   |
@@ -68,26 +68,23 @@ Every implementation must be:
 
 ### TODO
 
-- Include more time measurements
 - Running system information
 - Show allocated memory
-- Linux compatibility
 
 ### References
 
 <a href="https://projecteuler.net">
   <img src="https://projecteuler.net/themes/20210213/logo_default.png">
 </a>
-
 <a href="https://projecteuler.chat">
   <img src="https://projecteuler.chat/ext/euler13/pechat/styles/prosilver/theme/images/site_logo.png">
 </a>
-
 <a href="https://mathoverflow.net">
   <img src="https://cdn.sstatic.net/Sites/mathoverflow/Img/logo.svg?v=3a674b060adf">
 </a>
 
 ### Contact Information
+
 <a href="https://www.linkedin.com/in/kim-tisott-58133815b">
   <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-64.png">
 </a>
