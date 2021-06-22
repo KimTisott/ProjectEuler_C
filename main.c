@@ -1,12 +1,64 @@
-#include "benchmark.h"
 #include "solutions.h"
+#include "ubench.h"
 
-#define Function problem12
-#define Answer 76576500
-#define Repetitions 1000
-#define Progress 1
+UBENCH_MAIN();
 
-int main()
+UBENCH(solutions, problem1)
 {
-	benchmark(Function, Answer, Repetitions, Progress);
+	problem1();
+}
+
+UBENCH(solutions, problem2)
+{
+	problem2();
+}
+
+UBENCH(solutions, problem3)
+{
+	problem3();
+}
+
+UBENCH(solutions, problem4)
+{
+	problem4();
+}
+
+UBENCH(solutions, problem5)
+{
+	problem5();
+}
+
+UBENCH(solutions, problem6)
+{
+	problem6();
+}
+
+UBENCH(solutions, problem7)
+{
+	problem7();
+}
+
+UBENCH(solutions, problem8)
+{
+	problem8();
+}
+
+UBENCH(solutions, problem9)
+{
+	problem9();
+}
+
+UBENCH(solutions, problem10)
+{
+	problem10();
+}
+
+UBENCH(solutions, problem11)
+{
+	problem11();
+}
+
+UBENCH(solutions, problem12)
+{
+	problem12();
 }

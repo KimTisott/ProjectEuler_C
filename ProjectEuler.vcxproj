@@ -139,12 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="benchmark.h" />
     <ClInclude Include="helpers.h" />
     <ClInclude Include="solutions.h" />
+    <ClInclude Include="ubench.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="benchmark.c" />
     <ClCompile Include="Helpers\natural_numbers_sum.c" />
     <ClCompile Include="Helpers\greatest_common_divisor.c" />
     <ClCompile Include="Helpers\least_common_multiple.c" />
