@@ -1,69 +1,34 @@
+#include "benchmark.h"
 #include "solutions.h"
-#include "ubench.h"
 
-UBENCH_MAIN();
+#define Repetitions 100
+#define Progress 0
 
-UBENCH(solutions, problem1)
+int main()
 {
-	problem1();
-}
+	benchmark(problem1, "1", Repetitions, Progress);
 
-UBENCH(solutions, problem2)
-{
-	problem2();
-}
+	benchmark(problem2, "2", Repetitions, Progress);
 
-UBENCH(solutions, problem3)
-{
-	problem3();
-}
+	benchmark(problem3, "3", Repetitions, Progress);
 
-UBENCH(solutions, problem4)
-{
-	problem4();
-}
+	benchmark(problem4, "4", Repetitions, Progress);
 
-UBENCH(solutions, problem5)
-{
-	problem5();
-}
+	benchmark(problem5, "5", Repetitions, Progress);
 
-UBENCH(solutions, problem6)
-{
-	problem6();
-}
+	benchmark(problem6, "6", Repetitions, Progress);
 
-UBENCH(solutions, problem7)
-{
-	problem7();
-}
+	benchmark(problem7, "7", Repetitions, Progress);
 
-UBENCH(solutions, problem8)
-{
-	problem8();
-}
+	benchmark(problem8, "8", Repetitions, Progress);
 
-UBENCH(solutions, problem9)
-{
-	problem9();
-}
+	benchmark(problem9, "9", Repetitions, Progress);
 
-UBENCH(solutions, problem10)
-{
-	problem10();
-}
+	benchmark(problem10, "10", Repetitions, Progress);
 
-UBENCH(solutions, problem11)
-{
-	problem11();
-}
+	benchmark(problem11, "11", Repetitions, Progress);
 
-UBENCH(solutions, problem12)
-{
-	problem12();
-}
+	benchmark(problem12, "12", Repetitions, Progress);
 
-UBENCH(solutions, problem13)
-{
-	problem13();
+	benchmark(problem13, "13", Repetitions, Progress);
 }

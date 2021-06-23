@@ -10,27 +10,22 @@ double time()
 
 	QueryPerformanceFrequency(&f);
 
-	return (double)t.QuadPart / (double)f.QuadPart;
+	return (double)t.QuadPart * 1000000 / (double)f.QuadPart;
 }
 
-void benchmark(void* function(), unsigned long long answer, unsigned long long count, int progress)
+void benchmark(void* function(), char *id, unsigned long long count, int progress)
 {
 	double *times = malloc(sizeof(double) * count), total = 0, mean, sd = 0;
 	
+	printf("#%s\n", id);
+
 	for (int i = 0; i < count; i++)
 	{
 		double current = time();
 
-		unsigned long long result = function();
+		function();
 
 		current = time() - current;
-
-		if (answer != 0 && result != answer)
-		{
-			printf("Result (%llu) different than Answer (%llu)\n", result, answer);
-
-			break;
-		}
 
 		times[i] = current;
 
@@ -38,7 +33,7 @@ void benchmark(void* function(), unsigned long long answer, unsigned long long c
 
 		if (progress)
 		{
-			printf("[%04d] %.3fus\n", i + 1, times[i] * 1000000);
+			printf("[%04d] %.3fus\n", i + 1, times[i]);
 		}
 	}
 
@@ -51,9 +46,9 @@ void benchmark(void* function(), unsigned long long answer, unsigned long long c
 			sd += pow(times[i] - mean, 2);
 		}
 
-		printf("Mean: %.3fus\n", mean * 1000000);
+		printf("Mean: %.3fus\n", mean);
 
-		printf("SD: %.3fus\n", sqrt(sd / count) * 1000000);
+		printf("SD: %.3fus\n", sqrt(sd / count));
 	}
 
 	printf("------------------------------\n");

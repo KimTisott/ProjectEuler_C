@@ -1,1 +1,1 @@
-void benchmark(void* function(), unsigned long long answer, unsigned long long count, int progress);
+void benchmark(void* function(), char *id, unsigned long long count, int progress);
