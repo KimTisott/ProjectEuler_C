@@ -2,7 +2,7 @@
   <a href="https://projecteuler.net">
     <img src="https://projecteuler.net/images/clipart/euler_portrait.png">
   </a>
-  <br>My code efficient implementations for solutions of <a href="https://projecteuler.net">Project Euler</a> problems</br>
+  <br>My overly optimized implementations for solutions of <a href="https://projecteuler.net">Project Euler</a> problems, focused on math algorithms and code efficiency</br>
 </p>
 
 | ID  | Problem                                                                      | Solution                                                                                 | Mean (μs) | SD (μs) | Best (μs) | Worst (μs) |
