@@ -2,11 +2,11 @@
   <a href="https://projecteuler.net">
     <img src="https://projecteuler.net/images/clipart/euler_portrait.png">
   </a>
-  <br>My overly optimized implementations for solutions of <a href="https://projecteuler.net">Project Euler</a> problems, focused on math algorithms and code efficiency</br>
+  <br>My overly optimized solutions of <a href="https://projecteuler.net">Project Euler</a> problems, focused on math algorithms and code efficiency
 </p>
 
-| ID  | Problem                                                                      | Solution                                                                                 | Mean (μs) | SD (μs) | Best (μs) | Worst (μs) |
-| :-: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: | --------: | ------: | --------: | ---------: |
+| ID  | Problem                                                                      | Solution                                                                                 |
+| :-: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------: |
 | 1   | [Multiples of 3 and 5](https://projecteuler.net/problem=1)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem1.c)  |
 | 2   | [Even Fibonacci numbers](https://projecteuler.net/problem=2)                 | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem2.c)  |
 | 3   | [Largest prime factor](https://projecteuler.net/problem=3)                   | [C](https://github.com/KimTisott/ProjectEuler-Solutions/blob/main/Solutions/problem3.c)  |
@@ -65,11 +65,6 @@ Every implementation must be:
 - Deterministic: one input results in the same output every run
 - Non-trivial: there can be no unexplained values in the code
 - Efficient: every microsecond, bit and joule matters
-
-### TODO
-
-- Running system information
-- Show allocated memory
 
 ### References
 
