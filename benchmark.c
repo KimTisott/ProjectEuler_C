@@ -1,3 +1,4 @@
+#include <float.h>
 #include <math.h>
 #include <stdio.h>
 #include <windows.h>
@@ -15,7 +16,7 @@ double time()
 
 void benchmark(void* function(), char *id, unsigned long long count, int progress)
 {
-	double *times = malloc(sizeof(double) * count), total = 0, mean, sd = 0;
+	double* times = malloc(sizeof(double) * count), total = 0, mean, sd = 0, best = DBL_MAX, worst = 0;
 	
 	printf("#%s\n", id);
 
@@ -30,6 +31,16 @@ void benchmark(void* function(), char *id, unsigned long long count, int progres
 		times[i] = current;
 
 		total += current;
+
+		if (current > worst)
+		{
+			worst = current;
+		}
+		
+		if (current < best)
+		{
+			best = current;
+		}
 
 		if (progress)
 		{
@@ -49,6 +60,10 @@ void benchmark(void* function(), char *id, unsigned long long count, int progres
 		printf("Mean: %.3fus\n", mean);
 
 		printf("SD: %.3fus\n", sqrt(sd / count));
+
+		printf("Best: %.3fus\n", best);
+
+		printf("Worst: %.3fus\n", worst);
 	}
 
 	printf("------------------------------\n");
